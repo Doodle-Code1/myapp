@@ -12,6 +12,7 @@
                 <p class="text-gray-700 dark:text-gray-300 mb-6">
                     Explore our services, read our latest blog posts, and get in touch for more information.
                 </p>
+                <p class="dark:text-gray-300 mb-6"> <span class="text-red-500 dark:text-red-300">Notice: </span>We will be shutting down in 5 days when my free trial ends.</p>
                 <a href="{{ route('contact') }}" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition">
                     Contact us about a free first call
                 </a>
