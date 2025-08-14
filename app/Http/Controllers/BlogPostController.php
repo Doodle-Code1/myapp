@@ -6,15 +6,15 @@ use App\Models\BlogPost;
 
 class BlogPostController extends Controller
 {
-    public function index()
-    {
-        $posts = BlogPost::latest()->paginate(10);
-        return view('blog.index', compact('posts'));
+    // List blogs
+    public function index() {
+        $posts = BlogPost::latest()->paginate(9);
+        return view('blog.index', ['posts' => $posts]);
     }
 
-    public function show(BlogPost $blog)
-    {
-        return view('blog.show', compact('blog'));
+    // Single blog
+    public function show(BlogPost $blog) {
+        return view('blog.show', ['post' => $blog]);
     }
 }
 
