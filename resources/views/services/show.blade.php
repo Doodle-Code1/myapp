@@ -3,13 +3,13 @@
         {{ $service->title }}
     </x-slot:heading>
 
-    <div class="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md">
-        <p class="text-gray-600 dark:text-gray-300 mb-4">{{ $service->description }}</p>
+    <div class="bg-slate-50 dark:bg-slate-700 rounded-lg p-6 shadow-md">
+        <p class="text-slate-600 dark:text-slate-300 mb-4">{{ $service->description }}</p>
 
         @if($service->details)
             <div class="mt-4">
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Details</h3>
-                <p class="text-gray-600 dark:text-gray-300">{{ $service->details }}</p>
+                <h3 class="text-lg font-semibold text-slate-900 dark:text-white mb-2">Details</h3>
+                <p class="text-slate-600 dark:text-slate-300">{{ $service->details }}</p>
             </div>
         @endif
 

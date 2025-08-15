@@ -2,6 +2,8 @@
     <x-slot:heading>
         Contact Page
     </x-slot:heading>
-    <h1 class="dark:text-white text-center">🛠️ Work in progress 🛠️</h1>
-    
+
+    <div class="max-w-2xl mx-auto mt-8">
+        <livewire:contact-form />
+    </div>
 </x-layout>
